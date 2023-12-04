@@ -1,10 +1,10 @@
 # SpamDetection
 
-#Introduction
+## Introduction ##
 This project focuses on building and evaluating three different pipelines for spam detection. Each pipeline incorporates various preprocessing techniques, feature engineering, and machine learning models.
 
 # Usage
-#Google Collab Setup
+## Google Collab Setup ##
 To use the provided Google Colab notebook, follow these steps:
 
 -Open the notebook in Google Colab.
