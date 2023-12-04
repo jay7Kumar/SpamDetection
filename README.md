@@ -14,13 +14,26 @@ To use the provided Google Colab notebook, follow these steps:
 
 # Model Training
 -Pipeline 1: Data Preprocessing + Sparse Embeddings (TF-IDF) + Logistic Regression
-![alt text]([https://github.com/jay7Kumar/GlassDoor_Salary_Model/blob/main/Screenshots/Screenshot%202023-03-05%20at%206.03.12%20PM.png](https://github.com/jay7Kumar/SpamDetection/blob/main/pipeline1_evaluation.png))
+![alt text](https://github.com/jay7Kumar/SpamDetection/blob/main/pipeline1_learning.png)
+
+-Pipeline 2: Data Preprocessing + Manual Features + XGBoost
+![alt text](https://github.com/jay7Kumar/SpamDetection/blob/main/pipeline2_learning.png)
+
+-Pipeline 3: Combine Manual Features and TF-IDF Vectors + Logistic Regression
+![alt text](https://github.com/jay7Kumar/SpamDetection/blob/main/pipeline3_learning.png)
+
 
 
 # Model Evaluation
 -Pipeline 1: Data Preprocessing + Sparse Embeddings (TF-IDF) + Logistic Regression
+![alt text](https://github.com/jay7Kumar/SpamDetection/blob/main/pipeline1_evaluation.png)
+
 -Pipeline 2: Data Preprocessing + Manual Features + XGBoost
+
+![alt text](https://github.com/jay7Kumar/SpamDetection/blob/main/pipeline1_evaluation.png)
+
 -Pipeline 3: Combine Manual Features and TF-IDF Vectors + Logistic Regression
+![alt text](https://github.com/jay7Kumar/SpamDetection/blob/main/pipeline3_evaluation.png)
 
 # Features
 -Data preprocessing using custom scripts and libraries.
@@ -29,3 +42,6 @@ To use the provided Google Colab notebook, follow these steps:
 
 # Evaluation
 The project evaluates the performance of each pipeline on a test dataset. The chosen pipeline achieves an F1 score of 0.93, indicating effective spam detection capabilities.
+
+# Conclusion
+Based on the 3 pipelines. I would choose the third pipeline with Sparse Embeddings (TF-IDF) + Feature Engineering. This pipeline has thehighest f1 score of 0.93. This pipeline obtained a f1 score 0.93 with a Logistic Regression algorithm, which is one one of the simplest classification algorithm.
