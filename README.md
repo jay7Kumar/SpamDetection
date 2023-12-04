@@ -12,6 +12,11 @@ To use the provided Google Colab notebook, follow these steps:
 -Install required libraries using the provided cell.
 -Load and preprocess the dataset as demonstrated in the notebook.
 
+# Model Training
+-Pipeline 1: Data Preprocessing + Sparse Embeddings (TF-IDF) + Logistic Regression
+![alt text]([https://github.com/jay7Kumar/GlassDoor_Salary_Model/blob/main/Screenshots/Screenshot%202023-03-05%20at%206.03.12%20PM.png](https://github.com/jay7Kumar/SpamDetection/blob/main/pipeline1_evaluation.png))
+
+
 # Model Evaluation
 -Pipeline 1: Data Preprocessing + Sparse Embeddings (TF-IDF) + Logistic Regression
 -Pipeline 2: Data Preprocessing + Manual Features + XGBoost
